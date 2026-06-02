@@ -1,6 +1,24 @@
 [
  {
   "directory": "/home/sme43392@spseol.cz/wnet_H/MIT/STM8SGUI/ADC",
+  "file": "src/uart1.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-Iinc",
+   "-I../SPL/inc",
+   "-I/usr/local/stow/sdcc-4.4.0/share/sdcc/include",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "src/uart1.c"
+  ]
+ },
+ {
+  "directory": "/home/sme43392@spseol.cz/wnet_H/MIT/STM8SGUI/ADC",
   "file": "src/milis.c",
   "arguments": [
    "sdcc",
@@ -33,6 +51,24 @@
    "-D__SDCC__",
    "-DSDCC_VERSION=40000",
    "src/delay.c"
+  ]
+ },
+ {
+  "directory": "/home/sme43392@spseol.cz/wnet_H/MIT/STM8SGUI/ADC",
+  "file": "src/adc_helper.c",
+  "arguments": [
+   "sdcc",
+   "-c",
+   "-Iinc",
+   "-I../SPL/inc",
+   "-I/usr/local/stow/sdcc-4.4.0/share/sdcc/include",
+   "-DSTM8S208",
+   "-D_SDCC",
+   "-D_SDCC_",
+   "-D__SDCC",
+   "-D__SDCC__",
+   "-DSDCC_VERSION=40000",
+   "src/adc_helper.c"
   ]
  },
  {
